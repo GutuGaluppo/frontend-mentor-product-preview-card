@@ -62,8 +62,6 @@ button > img {
   .card_container > .product_img {
     height: 40% !important;
     width: 100%;
-    object-fit: cover;
-    object-position: 80% 100%;
   }
   .card_description {
     padding: 25px !important;
@@ -85,6 +83,9 @@ button > img {
 }
 .card_container > div {
   width: 50%;
+}
+.product_img > img {
+  width: 100%;
 }
 .card_description {
   display: flex;
