@@ -124,12 +124,14 @@ picture {
   margin-left: 10px;
   align-self: center;
 }
-.attribution {
+.footer {
   position: absolute;
   bottom: 20px;
+  font-family: var(--montserrat);
   font-size: 11px;
   text-align: center;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.footer a {
+  font-family: var(--fraunces);
+  color: var(--carkCyan);
 }
