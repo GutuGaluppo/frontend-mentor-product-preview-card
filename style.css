@@ -18,9 +18,9 @@
 
 body {
   font-family: var(--montserrat);
-  font-size: 14px;
+  font-size: 0, 875rem;
   background-color: var(--cream);
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -52,15 +52,14 @@ button > img {
     justify-content: center;
     align-items: center;
     width: 90vw !important;
-    height: 85vh !important;
-    border-radius: 7px;
+    height: 90vh !important;
   }
   .card_container > .product_description {
-    height: 60% !important;
+    height: 70% !important;
     width: 100%;
   }
-  .card_container > .product_img {
-    height: 40% !important;
+  .card_container > picture {
+    height: 34% !important;
     width: 100%;
   }
   .card_description {
@@ -81,7 +80,8 @@ button > img {
   border-radius: 7px;
   overflow: hidden;
 }
-.card_container > div {
+.card_container > div,
+picture {
   width: 50%;
 }
 .product_img > img {
@@ -116,7 +116,7 @@ button > img {
   vertical-align: top;
   display: flex;
 }
-.card_price > s {
+.card_price > del {
   font-family: var(--montserrat);
   font-weight: 400;
   font-size: 14px;
