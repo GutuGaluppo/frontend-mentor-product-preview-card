@@ -113,8 +113,8 @@ picture {
 .card_price {
   color: var(--carkCyan);
   font-family: var(--fraunces);
-  vertical-align: top;
   display: flex;
+  align-items: center;
 }
 .card_price > del {
   font-family: var(--montserrat);
@@ -122,7 +122,6 @@ picture {
   font-size: 14px;
   color: var(--darkGrayishBlue);
   margin-left: 10px;
-  align-self: center;
 }
 .footer {
   position: absolute;
