@@ -111,15 +111,18 @@ picture {
   color: hsl(228, 12%, 48%);
 }
 .card_price {
-  color: var(--carkCyan);
-  font-family: var(--fraunces);
   display: flex;
   align-items: center;
+}
+.card_price > p {
+  color: var(--carkCyan);
+  font-family: var(--fraunces);
+  font-size: 2rem;
 }
 .card_price > del {
   font-family: var(--montserrat);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1rem;
   color: var(--darkGrayishBlue);
   margin-left: 10px;
 }
@@ -127,7 +130,7 @@ picture {
   position: absolute;
   bottom: 20px;
   font-family: var(--montserrat);
-  font-size: 11px;
+  font-size: 0.7rem;
   text-align: center;
 }
 .footer a {
